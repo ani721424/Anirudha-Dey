@@ -1,0 +1,376 @@
+{% extends 'core\homeBase.html' %}
+{% load static %}
+{% block title %}{{block.super}}-home {% endblock title %}
+{% block content %}
+
+    <section id="sliderSection">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="slick_slider">
+            <div class="single_iteam"> <a href="#"> <img src="{% static 'images/slider_img1.jpg' %}" alt=""></a>
+              <div class="slider_article">
+                <h2><a class="slider_tittle" href="#">Gargi Memorial Institute of Technology</a></h2>
+                <p>The Institute setup an Innovation Cell for providing various facilities to the students to nurture
+                  their innovative ideas and convert them to usable products. The students are encouraged to participate
+                  in various technical competitions such as AICTE Chatra Viswakarma, Tech Fests organized by various
+                  IITs viz. IIT Mumbai, IIT Kharagpur, etc. and also participate in regional Project Contest organized
+                  by CII (ER), American Centre, Kolkata,etc.</p>
+              </div>
+            </div>
+            <div class="single_iteam"> <a href="#"> <img src="{% static 'images/slider_img2.jpg' %}" alt=""></a>
+              <div class="slider_article">
+                <h2><a class="slider_tittle" href="#">Gargi Memorial Institute of Technology</a></h2>
+                <p>The Career Development Cell (CDC) is committed to provide all possible assistance to the students of
+                  GMIT in their efforts to find employment. Headed by Mr Sudip Mukherjee, Director-CDC & Ex-GM,
+                  ArcelorMittal, the cell is an 8-member team, comprising of one faculty member from each department and
+                  the Training & Placement Officers (TPOs).The success of CDC is reflected in the students being
+                  constantly able to secure lucrative industry placements since the conception of the cell.</p>
+              </div>
+            </div>
+            <div class="single_iteam"> <a href="#"> <img src="{% static 'images/slider_img3.jpg' %}" alt=""></a>
+              <div class="slider_article">
+                <h2><a class="slider_tittle" href="#">Gargi Memorial Institute of Technology</a></h2>
+                <p>Positive attitude of our students towards placement opportunities has put GMIT on the map of West
+                  Bengal as a fruitful destination for the core industries to recruit fresh engineers. While the number
+                  of jobs in core sector shrinks day by day, GMIT has consistently secured decent number of
+                  opportunities for its students.</p>
+              </div>
+            </div>
+            <div class="single_iteam"> <a href="#"> <img src="{% static 'images/slider_img1.jpg' %}" alt=""></a>
+              <div class="slider_article">
+                <h2><a class="slider_tittle" href="#">Gargi Memorial Institute of Technology</a></h2>
+                <p>GMIT has been ranked 8th amongst all emerging engineering colleges in India because of its
+                  educational excellence and professional infrastructural facilities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="latest_post">
+            <h2><span>Latest post</span></h2>
+            <div class="latest_post_container">
+              <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+              <ul class="latest_postnav">
+               <li>
+                  <div class="media"> <a href="#" class="media-left"> <img alt="" src="{% static 'images/dkb.png' %}">
+                    </a>
+                    <div class="media-body"> <a href="#" class="catg_title">DKB Memorial Football Tournament</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media"> <a href="#" class="media-left"> <img alt="" src="{% static 'images/tree1.jpg' %}"> Tree
+                      Plantation</a>
+                    <div class="media-body"> <a href="#" class="catg_title"></a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media"> <a href="#" class="media-left"> <img alt="" src="{% static 'images/radio.jpg' %}">
+                    </a>
+                    <div class="media-body"> <a href="#" class="catg_title"> Radio Show</a> </div>
+                  </div>
+                </li> 
+
+                <li>
+                  <div class="media"> <a href="#" class="media-left"> <img alt="" src="{% static 'images/gargi.jpg' %}"></a>
+                    <div class="media-body"> <a href="#" class="catg_title"> Gargi Day</a> </div>
+                  </div>
+                </li>
+              </ul>
+              <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contentSection">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="left_content">
+            <div class="single_post_content">
+              <h2><span>Electronics & Communication Engineering</span></h2>
+              <div class="single_post_content_left">
+                <ul class="business_catgnav  wow fadeInDown">
+                  <li>
+                    <figure class="bsbig_fig"> <a href="/ece" class="featured_img"> <img alt=""
+                          src="{% static 'images/ece1.jpg' %}"> <span class="overlay"></span> </a>
+                      <figcaption> <a href="/ece">Department of Electronics & communication Engineering</a>
+                      </figcaption>
+                      <p>Electronics is a subfield within the wider electrical engineering academic subject but denotes
+                        a broad engineering field that covers subfields such as analog electronics, digital electronics,
+                        consumer electronics, embedded systems and power electronics...</p>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+              <div class="single_post_content_right">
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="/ece" class="media-left"> <img alt=""
+                          src="{% static 'images/ece2.jpg' %}"> </a>
+                      <div class="media-body"> <a href="/ece" class="catg_title">Electronics and Communication
+                          Engineer</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="/ece" class="media-left"> <img alt=""
+                          src="{% static 'images/ece3.jpg' %}"> </a>
+                      <div class="media-body"> <a href="/ece" class="catg_title"> Desktop Support Engineer </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="/ece" class="media-left"> <img alt=""
+                          src="{% static 'images/ece4.jpg' %}"> </a>
+                      <div class="media-body"> <a href="/ece" class="catg_title"> System Control Engineer.</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="/ece" class="media-left"> <img alt=""
+                          src="{% static 'images/ece5.jpg' %}"> </a>
+                      <div class="media-body"> <a href="/ece" class="catg_title"> Telecommunication Engineer </a>
+                      </div>
+                    </div>
+                  </li>
+
+
+
+                </ul>
+              </div>
+            </div>
+            <div class="fashion_technology_area">
+              <div class="fashion">
+                <div class="single_post_content">
+                  <h2><span>Electrical Engineering</span></h2>
+                  <ul class="business_catgnav wow fadeInDown">
+                    <li>
+                      <figure class="bsbig_fig"> <a href="/ee" class="featured_img"> <img alt=""
+                            src="{% static 'images/electrical.jpg' %}"> <span class="overlay"></span> </a>
+                        <figcaption> <a href="/ee">Department of Electrical Engineering</a></figcaption>
+                        <p>Electrical engineering is an engineering discipline concerned with the study, design and
+                          application of equipment, devices and systems which use electricity, electronics, and
+                          electromagnetism. It emerged as an identifiable occupation in the latter half of the 19th
+                          century after commercialization of the electric telegraph, the telephone, and electrical power
+                          generation, distribution and use...</p>
+                      </figure>
+                    </li>
+                  </ul>
+                  <ul class="spost_nav">
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/ee" class="media-left"> <img alt=""
+                            src="{% static 'images/ee1.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/ee" class="catg_title"> Electrical Engineer.</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/ee" class="media-left"> <img alt=""
+                            src="{% static 'images/ee2.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/ee" class="catg_title"> Chief electrical engineer.</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/ee" class="media-left"> <img alt=""
+                            src="{% static 'images/ee3.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/ee" class="catg_title"> Electrical Project
+                            Engineer.</a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/ee" class="media-left"> <img alt=""
+                            src="{% static 'images/ee4.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/ee" class="catg_title"> Electrical Design Engineer</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="technology">
+                <div class="single_post_content">
+                  <h2><span>Computer science & Engineering</span></h2>
+                  <ul class="business_catgnav">
+                    <li>
+                      <figure class="bsbig_fig wow fadeInDown"> <a href="/cse" class="featured_img"> <img
+                            alt="" src="{% static 'images/computer.jpg' %}"> <span class="overlay"></span> </a>
+                        <figcaption> <a href="/cse">Department of Computer science & Engineering</a>
+                        </figcaption>
+                        <p>Computer Science & Engineering (CSE) is an academic program at many universities which
+                          comprises scientific and engineering aspects of computing. CSE is also a term often used in
+                          Europe to translate the name of engineering informatics academic programs...</p>
+                      </figure>
+                    </li>
+                  </ul>
+                  <ul class="spost_nav">
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/cse" class="media-left"> <img alt=""
+                            src="{% static 'images/cse1.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/cse" class="catg_title">Systems Engineer.</a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/cse" class="media-left"> <img alt=""
+                            src="{% static 'images/cse2.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/cse" class="catg_title"> Computer Hardware
+                            Engineer.</a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/cse" class="media-left"> <img alt=""
+                            src="{% static 'images/cse3.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/cse" class="catg_title"> Data Scientist</a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="/cse" class="media-left"> <img alt=""
+                            src="{% static 'images/cse4.jpg' %}"> </a>
+                        <div class="media-body"> <a href="/cse" class="catg_title">Software Developer</a> </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="single_post_content">
+              <h2><span>Achievement</span></h2>
+              <div class="single_post_content_left">
+                <ul class="business_catgnav">
+                  <li>
+                    <figure class="bsbig_fig  wow fadeInDown"> <a class="featured_img" href="/achievement">
+                        <img src="{% static 'images/24.jpeg' %}" alt=""> <span class="overlay"></span> </a>
+                      <figcaption> <a href="/achievement">Earn a top ranked Engineering Degree approved by
+                          AICTE and affiliated to MAKAUT (Formerly WBUT)</a> </figcaption>
+                      <p>GMIT has been ranked 8th amongst all emerging engineering colleges in India because of its
+                        educational excellence and professional infrastructural facilities.</p>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+              <div class="single_post_content_right">
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt=""
+                          src="{% static 'images/jis.png' %}"> </a>
+                      <div class="media-body"> <a href="/achievement" class="catg_title"> Industry-Academia
+                          Collaboration</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt=""
+                          src="{% static 'images/time.jpg' %}"> </a>
+                      <div class="media-body"> <a href="/achievement" class="catg_title"> Times Knowledge Icon Award</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt=""
+                          src="{% static 'images/assessment.jpg' %}"> </a>
+                      <div class="media-body"> <a href="/achievement" class="catg_title"> Employability Assessment</a>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <aside class="right_content">
+            <div class="single_sidebar">
+              <h2><span>Mechanical Engineering </span></h2>
+
+
+
+              <ul class="business_catgnav wow fadeInDown">
+                <li>
+                  <figure class="bsbig_fig"> <a href="/me" class="featured_img"> <img alt=""
+                        src="{% static 'images/me20.jpg' %}"> <span class="overlay"></span> </a>
+                    <figcaption> <a href="/me">Department of Mechanical Engineering </a></figcaption>
+                    <p>Mechanical engineering is an engineering branch that combines engineering physics and mathematics
+                      principles with materials science to design, analyze, manufacture, and maintain mechanical
+                      systems. ... It is the branch of engineering that involves the design, production, and operation of machinery...</p>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="spost_nav">
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/me" class="media-left"> <img alt=""
+                        src="{% static 'images/me1.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/me" class="catg_title"> Mechanical Engineer</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/me" class="media-left"> <img alt=""
+                        src="{% static 'images/me2.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/me" class="catg_title"> Mechanical Design Engineer</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/me" class="media-left"> <img alt=""
+                        src="{% static 'images/me18.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/me" class="catg_title"> Manufacturing Engineer</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/me" class="media-left"> <img alt=""
+                        src="{% static 'images/me17.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/me" class="catg_title"> Industrial Engineer</a>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="single_sidebar wow fadeInDown">
+              <h2><span>Civil Engineering</span></h2>
+              <figure class="bsbig_fig"> <a href="/me" class="featured_img"> <img alt=""
+                        src="{% static 'images/ce11.jpg' %}"> <span class="overlay"></span> </a>
+                    <figcaption> <a href="/ce">Department of Civil Engineering </a></figcaption>
+                    <p>Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewage systems, pipelines, structural components of buildings, and railways...</p>
+                  </figure>
+                  <ul class="spost_nav">
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/ce" class="media-left"> <img alt=""
+                        src="{% static 'images/ce17.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/ce" class="catg_title">Structural Engineer</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/ce" class="media-left"> <img alt=""
+                        src="{% static 'images/ce18.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/ce" class="catg_title"> Geotechnical Engineer</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/ce" class="media-left"> <img alt=""
+                        src="{% static 'images/ce19.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/ce" class="catg_title"> Construction and management Engineer</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="/ce" class="media-left"> <img alt=""
+                        src="{% static 'images/ce20.jpg' %}"> </a>
+                    <div class="media-body"> <a href="/ce" class="catg_title"> Transport Engineer</a>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+
+
+
+            </div>
+
+          </aside>
+        </div>
+      </div>
+    </section>
+    {% endblock content %}

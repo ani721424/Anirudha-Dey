@@ -1,0 +1,126 @@
+{% extends 'core\homeBase.html' %}
+{% load static %}
+{% block title %}{{block.super}}-cdc {% endblock title %}
+{% block content %}
+  
+  <section id="contentSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="left_content">
+          <div class="contact_area">
+            <h2>cdc news</h2>
+            
+            
+                     
+              </div>
+              </div>
+              </div>
+              </div>
+
+
+             <div class="row">
+
+{% for i in cdc %}
+<div class="col-lg-4 col-md-4 col-sm-4">
+<div class="thumbnail">
+<a href="{% url 'detailsnews' pk=i.id %}" target="_blank">
+<img src="{{i.img.url}}" alt="Nature" style="width:'330px' height:'330px'">
+<div class="caption">
+
+<h4>{{i.headlines|truncatechars:35}}</h4></a>
+{{i.details|safe|truncatechars:120}}
+<a href="{% url 'detailsnews' pk=i.id %}">Read More</a>
+</div>
+</div>
+</div>
+{% empty %}
+<div>
+<button type="button" class="btn btn-danger">No News Found, may be cdc not approved any news</button>
+</div>
+{% endfor %}
+
+
+
+            
+                     
+          
+
+</section>
+
+  
+
+
+
+<section id="contentSection">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <div class="left_content">
+        <div class="contact_area">
+          <h2>cdc Members</h2>
+          
+          
+                   
+            </div>
+            </div>
+            </div>
+            </div>            
+               
+  <div class="row">
+  
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+          <img src="{% static 'images/bb.jpg' %}" alt="Nature" style="width:50%">
+          <div class="caption">
+              <h3>Vice Chairman's Desk : Mr. Bodhisattva Banerjee
+              </h3></a>
+              <p>[B.E., MBA (Germany), Country Head, BASSETTI India; Vice Chairman of Central Placement Cell, MAKAUT (formerly WBUT); Member of BCCI, CII, IGCC, TIE (Charters Member), NASSCOM]<br/>
+
+                Knowing fully well that “industry hires for attitude and trains for skills”, our students are honed accordingly with right guidance to develop correct attitude and are prepared to imbibe new skills quickly.</p>
+              
+           
+          </div>
+        </a>
+      </div>
+    </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+          <img src="{% static 'images/dg.jpg' %}" alt="Nature" style="width:50%">
+          <div class="caption">
+              <h3>From Career Development Cell: Mr. Debajyoti Ghosh
+              </h3></a>
+              <p>[M.E. (Electrical- Jadavpur University) Assistant Convenor, CDC & Assistant Professor of Department of Electrical Engineering, GMIT]<br/>
+
+                In addition, students are rigorously trained on effective communication,  behavioural and quantitative skills throughout their semesters.Our robust assessments & subsequent correcting exercises ensure to handpick our students for perfect fitment in necessary job profiles & industrial verticals.</p>
+              
+           
+          </div>
+       
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+          <img src="{% static 'images/sp.jpg' %}" alt="Nature" style="width:50%">
+          <div class="caption">
+              <h3>From TPO’s Desk: Mr. Soumoyjit Paul
+              </h3></a>
+              <p>
+ It gives us an immense pleasure to extend to you a most cordial invitation to participate in the Campus Recruitment Programme in GMIT. With an increase thrust on Institute-Industry Interaction, it is my sincere belief that your esteemed and GMIT will get along a symbolic relationship.</p>
+              
+           
+          </div>
+     
+      </div>
+    </div>
+  
+  </section>
+{% endblock content %}
+
+
+                                          
+
+              

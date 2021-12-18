@@ -30,11 +30,11 @@ urlpatterns = [
     path('sports/', views.sports, name='sports'),
     path('event/', views.event, name='event'),
     path('cdc/', views.cdc, name='cdc'),
-    path('ECE/', views.ECE, name='ECE'),
-    path('CSE/', views.CSE, name='CSE'),
-    path('EE/', views.EE, name='EE'),
-    path('CE/', views.CE, name='CE'),
-    path('ME/', views.ME, name='ME'),
+    path('ece/', views.ece, name='ece'),
+    path('cse/', views.cse, name='cse'),
+    path('ee/', views.ee, name='ee'),
+    path('ce/', views.ce, name='ce'),
+    path('me/', views.me, name='me'),
     
     
     
